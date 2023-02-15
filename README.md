@@ -1,2 +1,2 @@
-# azure-function-todoapp
+# azure-function-java-todoapp
 Azure Function todo app - Java
