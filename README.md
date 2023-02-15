@@ -20,7 +20,7 @@ HTTP Trigger Urls:\
 	 update-todo : https://todoapp-be.azurewebsites.net/api/todos/{id} \
 Deploy succeed
 
-# 1. Get Todos: api/todos \
+# 1. Get Todos: api/todos
 [
 {
   "id": "63ec65465dad283dc8dde419",
