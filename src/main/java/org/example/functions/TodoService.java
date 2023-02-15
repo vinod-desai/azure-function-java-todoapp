@@ -106,7 +106,7 @@ public class TodoService {
     }
 
     private MongoClient getMongoClient(){
-        ConnectionString connectionString = new ConnectionString("mongodb+srv://vdesai:TestTodo123@cluster0.fnshptt.mongodb.net/?retryWrites=true&w=majority&uuidRepresentation=STANDARD");
+        ConnectionString connectionString = new ConnectionString("<MongoDB Connection String>");
 
         CodecRegistry pojoCodecRegistry = fromRegistries(MongoClientSettings.getDefaultCodecRegistry(),
                 fromProviders(
