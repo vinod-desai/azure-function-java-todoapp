@@ -21,6 +21,7 @@ HTTP Trigger Urls:\
 Deploy succeed
 
 # 1. Get Todos: api/todos
+Response Body \
 [
 {
   "id": "63ec65465dad283dc8dde419",
@@ -62,3 +63,11 @@ Deploy succeed
   "done": true
 }
 ]
+
+# 2. Get Todo: api/todos/{id}
+Response Body \
+{
+  "id": "63ec6cc85dad2841ec1c541b",
+  "description": "Todo 3",
+  "done": false
+}
