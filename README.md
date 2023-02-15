@@ -20,7 +20,7 @@ HTTP Trigger Urls:\
 	 update-todo : https://todoapp-be.azurewebsites.net/api/todos/{id} \
 Deploy succeed
 
-# 1. Get Todos: api/todos
+# 1. Get Todos: [GET] api/todos
 Response Body \
 [
 {
@@ -64,10 +64,43 @@ Response Body \
 }
 ]
 
-# 2. Get Todo: api/todos/{id}
+# 2. Get Todo: [GET] api/todos/{id}
 Response Body \
 {
   "id": "63ec6cc85dad2841ec1c541b",
   "description": "Todo 3",
   "done": false
 }
+
+# 3. Create Todo: [POST] api/todos
+Request Body \
+{
+    "description": "Todo 8",
+    "done": true
+}
+/
+Response Body \
+{
+  "id": "63ecbb9e5dad282c205efe49",
+  "description": "Todo 8",
+  "done": true
+}
+
+# 4. Update Todo: [PUT] api/todos/{id}
+Request Body \
+{
+  "id": "63ec9c2d5dad28384c689bae",
+  "description": "update Todo 7",
+  "done": false
+}
+/
+Response Body \
+{
+  "id": "63ec9c2d5dad28384c689bae",
+  "description": "update Todo 7",
+  "done": false
+}
+
+# 5. Delete Todo: [DELETE] api/todos/{id}
+Response Body \
+Deleted todo successfully
