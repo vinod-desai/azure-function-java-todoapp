@@ -104,3 +104,6 @@ Response Body \
 # 5. Delete Todo: [DELETE] api/todos/{id}
 Response Body \
 Deleted todo successfully
+
+# Note follow below steps for any deployment issues 
+https://docs.spring.io/spring-boot/docs/1.5.6.RELEASE/reference/htmlsingle/#howto-create-a-deployable-war-file
